@@ -1,175 +1,176 @@
 {
     "price": "$1,450,860",
     "size": "483 acres",
-    "location": "Girard, Georgia (Burke County)",
-    "link": "https://www.landwatch.com/burke-county-county-georgia-recreational-property-for-sale/pid/411287201"
+    "city": "Girard",
+    "state": "Georgia",
+    "county": "Burke County"
 } 
 
 {
     "price": "$19,900",
     "size": "3 acres",
-    "location": "Ennice, North Carolina (Alleghany County)",
-    "link": "https://www.landwatch.com/alleghany-county-county-north-carolina-recreational-property-for-sale/pid/411739270"
+    "city": "Ennice",
+    "state": "North Carolina",
+    "county": "Alleghany County"
 } 
 
 {
     "price": "$19,000,000",
     "size": "350 acres",
-    "location": "Kremmling, Colorado (Grand County)",
-    "link": "https://www.landwatch.com/grand-county-county-colorado-farms-and-ranches-for-sale/pid/411728450"
+    "city": "Kremmling",
+    "state": "Colorado",
+    "county": "Grand County"
 } 
 
 {
     "price": "$13,500,000",
     "size": "2,020 acres",
-    "location": "McCoy, Colorado (Routt County)",
-    "link": "https://www.landwatch.com/routt-county-county-colorado-farms-and-ranches-for-sale/pid/408664523"
+    "city": "McCoy",
+    "state": "Colorado",
+    "county": "Routt County"
 } 
 
 {
     "price": "$42,500",
     "size": "7.7 acres",
-    "location": "Gainesville, Missouri (Ozark County)",
-    "link": "https://www.landwatch.com/ozark-county-county-missouri-recreational-property-for-sale/pid/411655394"
+    "city": "Gainesville",
+    "state": "Missouri",
+    "county": "Ozark County"
 } 
 
 {
     "price": "$725,000",
     "size": "78.34 acres",
-    "location": "Fall Creek, Oregon (Lane County)",
-    "link": "https://www.landwatch.com/lane-county-county-oregon-timberland-property-for-sale/pid/339178455"
+    "city": "Fall Creek",
+    "state": "Oregon",
+    "county": "Lane County"
 } 
 
 {
     "price": "$7,500,000",
     "size": "1,000 acres",
-    "location": "Zirconia, North Carolina (Henderson County)",
-    "link": "https://www.landwatch.com/henderson-county-county-north-carolina-recreational-property-for-sale/pid/410957258"
+    "city": "Zirconia",
+    "state": "North Carolina",
+    "county": "Henderson County"
 } 
 
 {
     "price": "$38,900",
     "size": "36 acres",
-    "location": "Saint Johns, Arizona (Apache County)",
-    "link": "https://www.landwatch.com/apache-county-county-arizona-recreational-property-for-sale/pid/411461693"
+    "city": "Saint Johns",
+    "state": "Arizona",
+    "county": "Apache County"
 } 
 
 {
     "price": "Auction",
     "size": "320 acres",
-    "location": "Hitchcock, South Dakota (Beadle County)",
-    "link": "https://www.landwatch.com/beadle-county-county-south-dakota-farms-and-ranches-for-sale/pid/411391703"
+    "city": "Hitchcock",
+    "state": "South Dakota",
+    "county": "Beadle County"
 } 
 
 {
     "price": "$899,000",
     "size": "27.43 acres",
-    "location": "Ben Wheeler, Texas (Van Zandt County)",
-    "link": "https://www.landwatch.com/van-zandt-county-county-texas-farms-and-ranches-for-sale/pid/410754386"
+    "city": "Ben Wheeler",
+    "state": "Texas",
+    "county": "Van Zandt County"
 } 
 
 {
     "price": "$949,000",
     "size": "9.99 acres",
-    "location": "Round Mountain, Texas (Blanco County)",
-    "link": "https://www.landwatch.com/blanco-county-county-texas-farms-and-ranches-for-sale/pid/410238985"
+    "city": "Round Mountain",
+    "state": "Texas",
+    "county": "Blanco County"
 } 
 
 {
     "price": "$8,750,000",
     "size": "9,444 acres",
-    "location": "Miami, Texas (Roberts County)",
-    "link": "https://www.landwatch.com/roberts-county-county-texas-farms-and-ranches-for-sale/pid/332783025"
+    "city": "Miami",
+    "state": "Texas",
+    "county": "Roberts County"
 } 
 
 {
     "price": "$124,900",
     "size": "2 acres",
-    "location": "Alvord, Texas (Wise County)",
-    "link": "https://www.landwatch.com/wise-county-county-texas-recreational-property-for-sale/pid/411205929"
+    "city": "Alvord",
+    "state": "Texas",
+    "county": "Wise County"
 } 
 
 {
     "price": "$699,000",
     "size": "35 acres",
-    "location": "Converse, Indiana (Grant County)",
-    "link": "https://www.landwatch.com/grant-county-county-indiana-homes-for-sale/pid/411539223"
+    "city": "Converse",
+    "state": "Indiana",
+    "county": "Grant County"
 } 
 
 {
     "price": "$4,890,000",
     "size": "2,397 acres",
-    "location": "King City, California (Monterey County)",
-    "link": "https://www.landwatch.com/monterey-county-county-california-farms-and-ranches-for-sale/pid/410234875"
+    "city": "King City",
+    "state": "California",
+    "county": "Monterey County"
 } 
 
 {
     "price": "$199,900",
     "size": "20 acres",
-    "location": "Slanesville, West Virginia (Hampshire County)",
-    "link": "https://www.landwatch.com/hampshire-county-county-west-virginia-farms-and-ranches-for-sale/pid/411729997"
+    "city": "Slanesville",
+    "state": "West Virginia",
+    "county": "Hampshire County"
 } 
 
 {
     "price": "$16,000,000",
     "size": "916 acres",
-    "location": "Walland, Tennessee (Blount County)",
-    "link": "https://www.landwatch.com/blount-county-county-tennessee-farms-and-ranches-for-sale/pid/409543494"
+    "city": "Walland",
+    "state": "Tennessee",
+    "county": "Blount County"
 } 
 
 {
     "price": "$68,000,000",
     "size": "50,500 acres",
-    "location": "Livermore, California (Santa Clara County)",
-    "link": "https://www.landwatch.com/santa-clara-county-county-california-farms-and-ranches-for-sale/pid/335552281"
+    "city": "Livermore",
+    "state": "California",
+    "county": "Santa Clara County"
 } 
 
 {
     "price": "$199,750",
     "size": "10 acres",
-    "location": "Fairview, Utah (Sanpete County)",
-    "link": "https://www.landwatch.com/sanpete-county-county-utah-recreational-property-for-sale/pid/411166649"
+    "city": "Fairview",
+    "state": "Utah",
+    "county": "Sanpete County"
 } 
 
 {
     "price": "$939,900",
     "size": "18.86 acres",
-    "location": "Burgettstown, Pennsylvania (Washington County)",
-    "link": "https://www.landwatch.com/washington-county-county-pennsylvania-farms-and-ranches-for-sale/pid/411269105"
+    "city": "Burgettstown",
+    "state": "Pennsylvania",
+    "county": "Washington County"
 } 
 
 {
     "price": "$185,000",
     "size": "10 acres",
-    "location": "Cumberland, Wisconsin (Polk County)",
-    "link": "https://www.landwatch.com/polk-county-county-wisconsin-recreational-property-for-sale/pid/411412939"
+    "city": "Cumberland",
+    "state": "Wisconsin",
+    "county": "Polk County"
 } 
 
 {
-    "price": "$550,000",
-    "size": "220.28 acres",
-    "location": "Rensselaer, Indiana (Jasper County)",
-    "link": "https://www.landwatch.com/jasper-county-county-indiana-farms-and-ranches-for-sale/pid/410694442"
-} 
-
-{
-    "price": "$409,500",
-    "size": "130 acres",
-    "location": "Deepwater, Missouri (Henry County)",
-    "link": "https://www.landwatch.com/henry-county-county-missouri-recreational-property-for-sale/pid/411339030"
-} 
-
-{
-    "price": "$5,900,000",
-    "size": "1,080 acres",
-    "location": "Mariposa, California (Mariposa County)",
-    "link": "https://www.landwatch.com/mariposa-county-county-california-farms-and-ranches-for-sale/pid/410086402"
-} 
-
-{
-    "price": "$32,000",
-    "size": "21.15 acres",
-    "location": "Fence Lake, New Mexico (Cibola County)",
-    "link": "https://www.landwatch.com/cibola-county-county-new-mexico-recreational-property-for-sale/pid/411305968"
+    "price": "$5,300,000",
+    "size": "820.94 acres",
+    "city": "Ogallala",
+    "state": "Nebraska",
+    "county": "Keith County"
 } 
 

@@ -1,9 +1,10 @@
 import sys
+import time
+import re
 
 # https://levelup.gitconnected.com/8-tips-to-master-web-control-with-selenium-ab120004753a
 
 from selenium import webdriver
-
 from selenium.webdriver.chrome.options import Options
 
 from bs4 import BeautifulSoup
@@ -16,16 +17,15 @@ WINDOW_SIZE = '1920,1080'
 # Listings
 # class="d99b8"
 LISTING = "d99b8"
-
 # Image
 # class="_651f4"
 IMAGE = "_651f4"
 # Text Data
 # class="_78864"
 TEXT = "_78864"
-
 # Navivation
 # class="_3e4ea"
+NEXT = "_3e4ea"
 
 def main():
     try:
@@ -45,23 +45,31 @@ def main():
         # Get Page
         driver.get('https://www.landwatch.com/land')
 
-        _listings = driver.find_elements_by_class_name(LISTING)
+        number_of_pages = int( driver.find_elements_by_class_name( 'd41b7' )[-1].text )
 
-        for index, x in enumerate( _listings ):
-            _data = {}
+        for index in range( number_of_pages - 1):
+            _listings = driver.find_elements_by_class_name(LISTING)
 
-            _image = x.find_element_by_class_name(IMAGE)
-            _text = x.find_element_by_class_name(TEXT).find_elements_by_tag_name('div')[:2]
+            for land in _listings :
+                _data = {}
 
-            _data['price'] = _text[0].text
-            _data['size'] = _text[-1].text.split( ' - ' )[0]
-            _data['location'] = _text[-1].text.split( ' - ' )[-1]
-            _data['link'] = _image.find_element_by_tag_name('a').get_attribute('href')
+                _text = land.find_element_by_class_name(TEXT).find_elements_by_tag_name('div')[:2]
+                _city, _state, _county = re.search(r'(.+?), +(.+?) \(+(.+?)\)', _text[-1].text.split( ' - ' )[-1]).groups()
 
-            print( json.dumps( _data, indent=4), '\n' )
-            # if index == 0:
-            #     break
+                _data['price'] = _text[0].text
+                _data['size'] = _text[-1].text.split( ' - ' )[0]
+                _data['city'] = _city
+                _data['state'] = _state
+                _data['county'] = _county
 
+                print( json.dumps( _data, indent=4), '\n' )
+            
+            # time.sleep( 10 )
+            # driver.find_elements_by_class_name(NEXT)[-1].click()
+            # time.sleep( 10 )
+
+            if index == 0:
+                break
     except Exception as e:
         print( e )
     finally:
@@ -69,3 +77,10 @@ def main():
 
 if __name__ == '__main__':
     sys.exit( main() )
+
+
+# Next
+# class="_3e4ea"
+
+# End of List
+# class="ca906"
