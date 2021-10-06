@@ -54,15 +54,13 @@ def main():
             _text = x.find_element_by_class_name(TEXT).find_elements_by_tag_name('div')[:2]
 
             _data['price'] = _text[0].text
-            _data['size'] = _text[-1].text.split( '-' )[0]
-            _data['location'] = _text[-1].text.split( '-' )[-1]
-            _data['image'] = _image.find_elements_by_tag_name('source')[1].get_attribute('srcset')
+            _data['size'] = _text[-1].text.split( ' - ' )[0]
+            _data['location'] = _text[-1].text.split( ' - ' )[-1]
             _data['link'] = _image.find_element_by_tag_name('a').get_attribute('href')
 
-            print( json.dumps(_data, indent=4) )
-
-            if index == 0:
-                break
+            print( json.dumps( _data, indent=4), '\n' )
+            # if index == 0:
+            #     break
 
     except Exception as e:
         print( e )
