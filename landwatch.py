@@ -32,22 +32,23 @@ def main():
 
         # Establish Driver
         driver = webdriver.Chrome( executable_path=CHROMEDRIVER_PATH, options=options )
-
         # Delete Cookies
         driver.delete_all_cookies()
         # Pause
         driver.implicitly_wait(10)
-        # Get
+        # Get Page
         driver.get('https://www.landwatch.com/land')
 
         _listings = driver.find_elements_by_class_name('d99b8')
 
-        for index, x in enumerate( _listings):
+        for index, x in enumerate( _listings ):
             _data = x.find_element_by_class_name('_78864').find_elements_by_tag_name('div')[:2]
-            for y in _data:
-                print( y.text )
-            if index == 0:
-                break
+        
+            print( 'Price: {}'.format(_data[0].text) )
+            print( 'Location: {}\n'.format(_data[1].text) )
+
+            # if index == 0:
+            #     break
 
     except Exception as e:
         print( e )
