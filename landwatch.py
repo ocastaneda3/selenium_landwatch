@@ -2,13 +2,9 @@ import sys
 import time
 import re
 
-# https://levelup.gitconnected.com/8-tips-to-master-web-control-with-selenium-ab120004753a
-
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-from bs4 import BeautifulSoup
-import lxml
 import json
 
 CHROMEDRIVER_PATH = '/usr/local/bin/chromedriver'
@@ -62,13 +58,13 @@ def main():
                 _data['state'] = _state
                 _data['county'] = _county
 
-                print( json.dumps( _data, indent=4), '\n' )
+                print( json.dumps( _data, indent=4) )
             
-            # time.sleep( 10 )
-            # driver.find_elements_by_class_name(NEXT)[-1].click()
-            # time.sleep( 10 )
+            time.sleep( 5 )
+            driver.find_elements_by_class_name(NEXT)[-1].click()
+            time.sleep( 10 )
 
-            if index == 0:
+            if index == 1:
                 break
     except Exception as e:
         print( e )
@@ -78,9 +74,6 @@ def main():
 if __name__ == '__main__':
     sys.exit( main() )
 
-
-# Next
-# class="_3e4ea"
-
-# End of List
-# class="ca906"
+# Tips & Tricks
+# https://levelup.gitconnected.com/8-tips-to-master-web-control-with-selenium-ab120004753a
+# https://towardsdatascience.com/how-to-setup-selenium-on-a-linux-vm-cd19ee47d922

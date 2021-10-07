@@ -4,173 +4,347 @@
     "city": "Girard",
     "state": "Georgia",
     "county": "Burke County"
-} 
-
+}
 {
     "price": "$19,900",
     "size": "3 acres",
     "city": "Ennice",
     "state": "North Carolina",
     "county": "Alleghany County"
-} 
-
+}
 {
     "price": "$19,000,000",
     "size": "350 acres",
     "city": "Kremmling",
     "state": "Colorado",
     "county": "Grand County"
-} 
-
+}
 {
     "price": "$13,500,000",
     "size": "2,020 acres",
     "city": "McCoy",
     "state": "Colorado",
     "county": "Routt County"
-} 
-
+}
 {
     "price": "$42,500",
     "size": "7.7 acres",
     "city": "Gainesville",
     "state": "Missouri",
     "county": "Ozark County"
-} 
-
+}
 {
     "price": "$725,000",
     "size": "78.34 acres",
     "city": "Fall Creek",
     "state": "Oregon",
     "county": "Lane County"
-} 
-
+}
 {
     "price": "$7,500,000",
     "size": "1,000 acres",
     "city": "Zirconia",
     "state": "North Carolina",
     "county": "Henderson County"
-} 
-
+}
 {
     "price": "$38,900",
     "size": "36 acres",
     "city": "Saint Johns",
     "state": "Arizona",
     "county": "Apache County"
-} 
-
+}
 {
     "price": "Auction",
     "size": "320 acres",
     "city": "Hitchcock",
     "state": "South Dakota",
     "county": "Beadle County"
-} 
-
+}
 {
     "price": "$899,000",
     "size": "27.43 acres",
     "city": "Ben Wheeler",
     "state": "Texas",
     "county": "Van Zandt County"
-} 
-
+}
 {
     "price": "$949,000",
     "size": "9.99 acres",
     "city": "Round Mountain",
     "state": "Texas",
     "county": "Blanco County"
-} 
-
+}
 {
     "price": "$8,750,000",
     "size": "9,444 acres",
     "city": "Miami",
     "state": "Texas",
     "county": "Roberts County"
-} 
-
+}
 {
     "price": "$124,900",
     "size": "2 acres",
     "city": "Alvord",
     "state": "Texas",
     "county": "Wise County"
-} 
-
+}
 {
     "price": "$699,000",
     "size": "35 acres",
     "city": "Converse",
     "state": "Indiana",
     "county": "Grant County"
-} 
-
+}
 {
     "price": "$4,890,000",
     "size": "2,397 acres",
     "city": "King City",
     "state": "California",
     "county": "Monterey County"
-} 
-
+}
 {
     "price": "$199,900",
     "size": "20 acres",
     "city": "Slanesville",
     "state": "West Virginia",
     "county": "Hampshire County"
-} 
-
+}
 {
     "price": "$16,000,000",
     "size": "916 acres",
     "city": "Walland",
     "state": "Tennessee",
     "county": "Blount County"
-} 
-
+}
 {
     "price": "$68,000,000",
     "size": "50,500 acres",
     "city": "Livermore",
     "state": "California",
     "county": "Santa Clara County"
-} 
-
+}
 {
     "price": "$199,750",
     "size": "10 acres",
     "city": "Fairview",
     "state": "Utah",
     "county": "Sanpete County"
-} 
-
+}
 {
     "price": "$939,900",
     "size": "18.86 acres",
     "city": "Burgettstown",
     "state": "Pennsylvania",
     "county": "Washington County"
-} 
-
+}
 {
     "price": "$185,000",
     "size": "10 acres",
     "city": "Cumberland",
     "state": "Wisconsin",
     "county": "Polk County"
-} 
-
+}
 {
     "price": "$5,300,000",
     "size": "820.94 acres",
     "city": "Ogallala",
     "state": "Nebraska",
     "county": "Keith County"
-} 
-
+}
+{
+    "price": "$550,000",
+    "size": "220.28 acres",
+    "city": "Rensselaer",
+    "state": "Indiana",
+    "county": "Jasper County"
+}
+{
+    "price": "$409,500",
+    "size": "130 acres",
+    "city": "Deepwater",
+    "state": "Missouri",
+    "county": "Henry County"
+}
+{
+    "price": "$5,900,000",
+    "size": "1,080 acres",
+    "city": "Mariposa",
+    "state": "California",
+    "county": "Mariposa County"
+}
+{
+    "price": "$32,000",
+    "size": "21.15 acres",
+    "city": "Fence Lake",
+    "state": "New Mexico",
+    "county": "Cibola County"
+}
+{
+    "price": "$6,250,000",
+    "size": "981.26 acres",
+    "city": "Rembert",
+    "state": "South Carolina",
+    "county": "Sumter County"
+}
+{
+    "price": "$179,000",
+    "size": "5.43 acres",
+    "city": "Mount Pleasant",
+    "state": "Utah",
+    "county": "Sanpete County"
+}
+{
+    "price": "$11,750,000",
+    "size": "380 acres",
+    "city": "Hampton",
+    "state": "Georgia",
+    "county": "Clayton County"
+}
+{
+    "price": "$1,115,000",
+    "size": "223 acres",
+    "city": "Iuka",
+    "state": "Illinois",
+    "county": "Marion County"
+}
+{
+    "price": "$569,900",
+    "size": "35.08 acres",
+    "city": "Rio",
+    "state": "West Virginia",
+    "county": "Hampshire County"
+}
+{
+    "price": "Auction",
+    "size": "79 acres",
+    "city": "Glenville",
+    "state": "Minnesota",
+    "county": "Freeborn County"
+}
+{
+    "price": "$750,000",
+    "size": "12 acres",
+    "city": "Jasonville",
+    "state": "Indiana",
+    "county": "Greene County"
+}
+{
+    "price": "$285,000",
+    "size": "87.5 acres",
+    "city": "Farmersburg",
+    "state": "Indiana",
+    "county": "Sullivan County"
+}
+{
+    "price": "$1,000,000",
+    "size": "10.27 acres",
+    "city": "Hill City",
+    "state": "South Dakota",
+    "county": "Pennington County"
+}
+{
+    "price": "$8,120,000",
+    "size": "2,900 acres",
+    "city": "Gainesville",
+    "state": "Missouri",
+    "county": "Ozark County"
+}
+{
+    "price": "Auction",
+    "size": "240 acres",
+    "city": "Stockland",
+    "state": "Illinois",
+    "county": "Iroquois County"
+}
+{
+    "price": "$439,500",
+    "size": "105 acres",
+    "city": "Dana",
+    "state": "Indiana",
+    "county": "Vermillion County"
+}
+{
+    "price": "$847,000",
+    "size": "264 acres",
+    "city": "Statesboro",
+    "state": "Georgia",
+    "county": "Bulloch County"
+}
+{
+    "price": "$840,910",
+    "size": "287 acres",
+    "city": "Wister",
+    "state": "Oklahoma",
+    "county": "Le Flore County"
+}
+{
+    "price": "$1,309,100",
+    "size": "247 acres",
+    "city": "Humeston",
+    "state": "Iowa",
+    "county": "Wayne County"
+}
+{
+    "price": "$7,150,000",
+    "size": "2258.03 acres",
+    "city": "Montrose",
+    "state": "Colorado",
+    "county": "San Miguel County"
+}
+{
+    "price": "$4,800,000",
+    "size": "210 acres",
+    "city": "Corning",
+    "state": "California",
+    "county": "Tehama County"
+}
+{
+    "price": "$399,000",
+    "size": "32.51 acres",
+    "city": "Hurricane Mills",
+    "state": "Tennessee",
+    "county": "Humphreys County"
+}
+{
+    "price": "$6,500,000",
+    "size": "233 acres",
+    "city": "Princeton",
+    "state": "California",
+    "county": "Colusa County"
+}
+{
+    "price": "Auction",
+    "size": "93 acres",
+    "city": "Westville",
+    "state": "Illinois",
+    "county": "Vermilion County"
+}
+{
+    "price": "$6,999,000",
+    "size": "621 acres",
+    "city": "Julian",
+    "state": "California",
+    "county": "San Diego County"
+}
+{
+    "price": "$299,000",
+    "size": "10 acres",
+    "city": "Manteo",
+    "state": "North Carolina",
+    "county": "Dare County"
+}
+{
+    "price": "$670,000",
+    "size": "240.77 acres",
+    "city": "Mount Jackson",
+    "state": "Virginia",
+    "county": "Shenandoah County"
+}
+{
+    "price": "$419,000",
+    "size": "1.5 acres",
+    "city": "Big Spring",
+    "state": "Texas",
+    "county": "Howard County"
+}
